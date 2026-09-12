@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/chaos/internal/safety"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/chaos/internal/safety"
 )
 
 // PodKill deletes one pod matching label within namespace, on the cluster

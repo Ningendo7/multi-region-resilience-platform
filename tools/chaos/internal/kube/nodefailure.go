@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/chaos/internal/awscli"
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/chaos/internal/safety"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/chaos/internal/awscli"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/chaos/internal/safety"
 )
 
 const (
@@ -97,7 +97,7 @@ func NodeFailure(ctx context.Context, kubeContext, awsRegion, az string, count i
 		return fmt.Errorf("no nodes found in cluster")
 	}
 
-		if seed == 0 {
+	if seed == 0 {
 		seed = time.Now().UnixNano()
 	}
 	candidates = selectByCount(candidates, count, seed)

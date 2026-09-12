@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/chaos/internal/kube"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/chaos/internal/kube"
 )
 
 func Execute(args []string) error {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/probe/internal/probecli"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/probe/internal/probecli"
 )
 
 func main() {

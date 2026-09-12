@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/chaos/internal/chaoscli"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/chaos/internal/chaoscli"
 )
 
 func main() {

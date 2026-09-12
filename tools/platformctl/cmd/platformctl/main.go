@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/platformctl/internal/cli"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/platformctl/internal/cli"
 )
 
 func main() {

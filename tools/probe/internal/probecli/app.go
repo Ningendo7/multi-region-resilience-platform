@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/probe/internal/health"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/probe/internal/health"
 )
 
 func Execute(args []string) error {

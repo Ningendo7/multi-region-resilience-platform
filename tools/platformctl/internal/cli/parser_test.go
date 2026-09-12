@@ -3,7 +3,7 @@ package cli
 import (
 	"testing"
 
-	"github.com/Ningendo7/terraform-multi-region-platform/tools/platformctl/internal/config"
+	"github.com/Ningendo7/multi-region-resilience-platform/tools/platformctl/internal/config"
 )
 
 func TestParseStack(t *testing.T) {
